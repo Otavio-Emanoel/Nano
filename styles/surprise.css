@@ -1,0 +1,46 @@
+#bravo {
+    position: fixed;
+    right: -500px;
+    top: 100px;
+    width: 400px;
+    height: 500px;
+    background-color: #0a0a0a49;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+    border-radius: 15px 0 0 15px;
+}
+#bravo div {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#close_bravo {
+    color: #b43900;
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #b43900;
+    box-shadow: 0 0 2px #b43900,
+        0 0 4px #b43900;
+    transition: 0.3s;
+}
+#close_bravo:hover {
+    box-shadow: 0 0 2px #b43900,
+        0 0 4px #b43900,
+        0 0 6px #b43900,
+        0 0 8px #b43900;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+#bravo img{
+    width: 300px;
+    height: 400px;
+}

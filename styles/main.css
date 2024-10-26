@@ -1,0 +1,91 @@
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+}
+
+#main_info {
+    width: 100%;
+    max-width: 600px;
+}
+
+#main_info p {
+    font-size: 18px;
+    margin: 20px 0 28px;
+    text-align: justify;
+}
+
+#main_info div {
+    display: flex;
+    column-gap: 32px;
+}
+
+#photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+#videos video {
+    width: 600px;
+    height: 337.5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#change1, #change2, #change3, #change4  {
+    color: #aeb400;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid #aeb400;
+    box-shadow: 0 0 2px #aeb400,
+    0 0 4px #aeb400;
+    transition: 0.3s;
+}
+
+#change1:hover, #change2:hover, #change3:hover, #change4:hover {
+    box-shadow: 0 0 2px #aeb400,
+    0 0 4px #aeb400,
+    0 0 6px #aeb400,
+    0 0 8px #aeb400,
+    0 0 10px #aeb400;
+    transition: 0.3s;
+    transform: scale(1.1);
+
+}
+
+#trocar_video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#nano_bravissimo {
+    color: #b43900;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid #b43900;
+    box-shadow: 0 0 2px #b43900,
+        0 0 4px #b43900;
+    transition: 0.3s;
+}
+
+#nano_bravissimo:hover {
+    box-shadow: 0 0 2px #b43900,
+        0 0 4px #b43900,
+        0 0 6px #b43900,
+        0 0 8px #b43900,
+        0 0 10px #b43900;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
